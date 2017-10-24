@@ -8,7 +8,7 @@ int main(){
 	double Luas1Box = LantaiPkt*8/1000000;
 	double JumlahBoxP, BiayaP, BiayaPG, TotalB;
 	
-	cout << "Luas Rumah					: "<<LuasRumah<<" m2"<<endl;
+	cout << "Luas Rumah				: "<<LuasRumah<<" m2"<<endl;
 	cout << "Luas 1 box parket			: "<<Luas1Box<<" m2"<<endl;	
 	
 	JumlahBoxP = LuasRumah/Luas1Box;
@@ -20,5 +20,7 @@ int main(){
 	BiayaPG = LuasRumah*20;
 	cout<< "Biaya Pasang (Rp)			:"<<BiayaPG<<endl;	
 	
+	TotalB = BiayaP+BiayaPG;
+	cout<< " Total Biaya (Rp)			:"<<TotalB<<endl;
 	
 }
